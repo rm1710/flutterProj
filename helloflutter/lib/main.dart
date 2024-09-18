@@ -30,8 +30,8 @@ class MyApp extends StatelessWidget {
               Column(
                 children:[
                   Image.asset("assets/images/flutter.png", width: 100, height: 100),
-                  SizedBox(height: 20),
-                  Text("This app is developed By RM", style: TextStyle(fontWeight: FontWeight.bold)),
+                  const SizedBox(height: 20),
+                  const Text("This app is developed By RM", style: TextStyle(fontWeight: FontWeight.bold)),
                 ],
               ),
               Container(
@@ -41,8 +41,8 @@ class MyApp extends StatelessWidget {
                 child: Row(
                   children:[
                     Image.asset("assets/images/naruto2.png",height:50,width:50),
-                    SizedBox(width:20),
-                  Column(
+                    const SizedBox(width:20),
+                  const Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children:[
                     Text("Ritesh", style: TextStyle(fontWeight: FontWeight.bold,color:Colors.white)),
